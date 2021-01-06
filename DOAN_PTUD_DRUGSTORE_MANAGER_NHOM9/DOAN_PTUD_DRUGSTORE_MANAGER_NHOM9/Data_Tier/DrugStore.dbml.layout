@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 17.875" name="DrugStore">
+  <DataContextMoniker Name="/DrugStoreDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c0e38dac-c695-4fd7-9dd5-aa0b9a916c3b" absoluteBounds="3.5, 1, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/DrugStoreDataContext/thuoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ccc89dab-65cc-4cc9-9a3b-b1f512bcc3e3" absoluteBounds="3.515, 1.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d847bd6-717a-480b-99c7-cbb11c2d1c7b" absoluteBounds="3.5, 14.375, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DrugStoreDataContext/taiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="911be996-fc68-4445-929c-0f0c24472f65" absoluteBounds="3.515, 14.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d9fe30ec-df0b-444a-a762-7c7da3b2dcaf" absoluteBounds="0.75, 1.875, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DrugStoreDataContext/nuoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="69fa2f15-0347-48f3-9f30-a0cd7564f8c4" absoluteBounds="0.765, 2.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5fa4c7e2-ca56-467d-96f5-5c0d56048d1b" absoluteBounds="0.75, 13.125, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/DrugStoreDataContext/nhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14cb79be-5fe2-46b9-83a9-5eb87be27ce2" absoluteBounds="0.765, 13.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5c15ab47-bc41-4985-96f9-00667cfff73f" absoluteBounds="0.75, 8.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DrugStoreDataContext/nhaCungCap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6159e4e-de74-4f8b-8304-46b2050b3853" absoluteBounds="0.765, 8.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dc6eb6cb-edcc-449d-8781-dc23868efdd5" absoluteBounds="0.75, 4.375, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DrugStoreDataContext/loaiThuoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87e2f8ac-6f3b-4343-96f1-f626615660c2" absoluteBounds="0.765, 4.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63469200-3f57-4a73-96c6-00530ee5c54a" absoluteBounds="1.5, 16.375, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/DrugStoreDataContext/loaiNhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc97dd1e-e718-4fdd-97e6-bc56d8a0ebbf" absoluteBounds="1.5150000000000001, 16.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c8445e51-01d8-4ee2-98e2-1792e0b023cc" absoluteBounds="0.75, 10.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DrugStoreDataContext/khachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89ee38c3-faec-4c78-b9f1-f1bc1a0b33e1" absoluteBounds="0.765, 11.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3daf2441-da17-4b78-a9b4-032b3ac30c53" absoluteBounds="3.5, 12, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DrugStoreDataContext/hoaDon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="847b70af-2aa4-4ead-9cb6-18beb8eb4c5b" absoluteBounds="3.515, 12.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e740bd50-3ce5-4016-a9fa-88e9ab60f551" absoluteBounds="0.75, 6.375, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DrugStoreDataContext/donViTinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc2d4c7b-62e9-4e44-9a7e-ffeb124a6bc3" absoluteBounds="0.765, 6.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7af6c68e-ba9c-4d97-8bf6-827328fb1d6a" absoluteBounds="6.25, 1.5, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/DrugStoreDataContext/ct_hoaDon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1ff9f1a9-90fb-420f-a5cc-05a34c0dba97" absoluteBounds="6.265, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.47199625651042); (3.5 : 2.47199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/nuoc/nuoc_thuoc" />
+      <nodes>
+        <classShapeMoniker Id="d9fe30ec-df0b-444a-a762-7c7da3b2dcaf" />
+        <classShapeMoniker Id="c0e38dac-c695-4fd7-9dd5-aa0b9a916c3b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 14.6354484049479); (3.5 : 14.6354484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/nhanVien/nhanVien_taiKhoan" />
+      <nodes>
+        <classShapeMoniker Id="5fa4c7e2-ca56-467d-96f5-5c0d56048d1b" />
+        <classShapeMoniker Id="1d847bd6-717a-480b-99c7-cbb11c2d1c7b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.03929768880208); (4.5 : 9.03929768880208); (4.5 : 3.92470540364583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/nhaCungCap/nhaCungCap_thuoc" />
+      <nodes>
+        <classShapeMoniker Id="5c15ab47-bc41-4985-96f9-00667cfff73f" />
+        <classShapeMoniker Id="c0e38dac-c695-4fd7-9dd5-aa0b9a916c3b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.97199625651042); (3.9687475 : 4.97199625651042); (3.9687475 : 3.92470540364583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/loaiThuoc/loaiThuoc_thuoc" />
+      <nodes>
+        <classShapeMoniker Id="dc6eb6cb-edcc-449d-8781-dc23868efdd5" />
+        <classShapeMoniker Id="c0e38dac-c695-4fd7-9dd5-aa0b9a916c3b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.125 : 16.375); (2.125 : 14.8958968098958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/loaiNhanVien/loaiNhanVien_nhanVien" />
+      <nodes>
+        <classShapeMoniker Id="63469200-3f57-4a73-96c6-00530ee5c54a" />
+        <classShapeMoniker Id="5fa4c7e2-ca56-467d-96f5-5c0d56048d1b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 12.1642976888021); (3.5 : 12.1642976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/khachHang/khachHang_hoaDon" />
+      <nodes>
+        <classShapeMoniker Id="c8445e51-01d8-4ee2-98e2-1792e0b023cc" />
+        <classShapeMoniker Id="3daf2441-da17-4b78-a9b4-032b3ac30c53" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 13.3517976888021); (3.5 : 13.3517976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/nhanVien/nhanVien_hoaDon" />
+      <nodes>
+        <classShapeMoniker Id="5fa4c7e2-ca56-467d-96f5-5c0d56048d1b" />
+        <classShapeMoniker Id="3daf2441-da17-4b78-a9b4-032b3ac30c53" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.97199625651042); (4.41666666666667 : 6.97199625651042 : JumpStart); (4.58333333333333 : 6.97199625651042 : JumpEnd); (5.0312525 : 6.97199625651042); (5.0312525 : 3.92470540364583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/donViTinh/donViTinh_thuoc" />
+      <nodes>
+        <classShapeMoniker Id="e740bd50-3ce5-4016-a9fa-88e9ab60f551" />
+        <classShapeMoniker Id="c0e38dac-c695-4fd7-9dd5-aa0b9a916c3b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 12.7892976888021); (7.25 : 12.7892976888021); (7.25 : 3.27089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/hoaDon/hoaDon_ct_hoaDon" />
+      <nodes>
+        <classShapeMoniker Id="3daf2441-da17-4b78-a9b4-032b3ac30c53" />
+        <classShapeMoniker Id="7af6c68e-ba9c-4d97-8bf6-827328fb1d6a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.38544840494792); (6.25 : 2.38544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DrugStoreDataContext/thuoc/thuoc_ct_hoaDon" />
+      <nodes>
+        <classShapeMoniker Id="c0e38dac-c695-4fd7-9dd5-aa0b9a916c3b" />
+        <classShapeMoniker Id="7af6c68e-ba9c-4d97-8bf6-827328fb1d6a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

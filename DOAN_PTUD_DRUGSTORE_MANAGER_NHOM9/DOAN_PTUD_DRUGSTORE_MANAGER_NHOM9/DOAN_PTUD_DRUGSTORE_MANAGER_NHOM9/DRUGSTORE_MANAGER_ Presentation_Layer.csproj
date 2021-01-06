@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7865194A-DA63-48CE-AE94-27573E00B423}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DOAN_PTUD_DRUGSTORE_MANAGER_NHOM9</RootNamespace>
+    <AssemblyName>DOAN_PTUD_DRUGSTORE_MANAGER_NHOM9</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExtensionMethod.cs" />
+    <Compile Include="frmAccountDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccountDetails.Designer.cs">
+      <DependentUpon>frmAccountDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBill\frmBillDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBill\frmBillDetail.Designer.cs">
+      <DependentUpon>frmBillDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBill\frmBillManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBill\frmBillManager.Designer.cs">
+      <DependentUpon>frmBillManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCountry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCountry.Designer.cs">
+      <DependentUpon>frmCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomers\frmCustomerManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomers\frmCustomerManager.Designer.cs">
+      <DependentUpon>frmCustomerManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomers\frmCustomerSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomers\frmCustomerSearch.Designer.cs">
+      <DependentUpon>frmCustomerSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrugs\frmDrugSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrugs\frmDrugSearch.Designer.cs">
+      <DependentUpon>frmDrugSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrugs\frmDrugSell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrugs\frmDrugSell.Designer.cs">
+      <DependentUpon>frmDrugSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployees\frmEmployeeManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployees\frmEmployeeManager.Designer.cs">
+      <DependentUpon>frmEmployeeManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrugs\frmDrugManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrugs\frmDrugManager.Designer.cs">
+      <DependentUpon>frmDrugManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployees\frmEmployeeSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployees\frmEmployeeSearch.Designer.cs">
+      <DependentUpon>frmEmployeeSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuantityPerUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuantityPerUnit.Designer.cs">
+      <DependentUpon>frmQuantityPerUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatistics\frmExpiredDrugsStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatistics\frmExpiredDrugsStatistics.Designer.cs">
+      <DependentUpon>frmExpiredDrugsStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatistics\frmIncomeStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatistics\frmIncomeStatistics.Designer.cs">
+      <DependentUpon>frmIncomeStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSuppliers\frmSupplierManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuppliers\frmSupplierManager.Designer.cs">
+      <DependentUpon>frmSupplierManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSuppliers\frmSupplierSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuppliers\frmSupplierSearch.Designer.cs">
+      <DependentUpon>frmSupplierSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAccountDetails.resx">
+      <DependentUpon>frmAccountDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBill\frmBillDetail.resx">
+      <DependentUpon>frmBillDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBill\frmBillManager.resx">
+      <DependentUpon>frmBillManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCountry.resx">
+      <DependentUpon>frmCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomers\frmCustomerManager.resx">
+      <DependentUpon>frmCustomerManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomers\frmCustomerSearch.resx">
+      <DependentUpon>frmCustomerSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrugs\frmDrugSearch.resx">
+      <DependentUpon>frmDrugSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrugs\frmDrugSell.resx">
+      <DependentUpon>frmDrugSell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployees\frmEmployeeManager.resx">
+      <DependentUpon>frmEmployeeManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrugs\frmDrugManager.resx">
+      <DependentUpon>frmDrugManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployees\frmEmployeeSearch.resx">
+      <DependentUpon>frmEmployeeSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuantityPerUnit.resx">
+      <DependentUpon>frmQuantityPerUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatistics\frmExpiredDrugsStatistics.resx">
+      <DependentUpon>frmExpiredDrugsStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatistics\frmIncomeStatistics.resx">
+      <DependentUpon>frmIncomeStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuppliers\frmSupplierManager.resx">
+      <DependentUpon>frmSupplierManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuppliers\frmSupplierSearch.resx">
+      <DependentUpon>frmSupplierSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacist_frmLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business_Tier\Business_Tier.csproj">
+      <Project>{b8711586-ca5a-41b0-84b9-14aad0cee977}</Project>
+      <Name>Business_Tier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{ce459ab0-9637-4c69-a47e-ac36143b089a}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customerb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy-shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacy-shopping-cart %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-shape-outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-outline_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-outline %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-outline_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analytics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\process.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\process %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-account-button-with-user-inside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-gears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicine %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\income.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
